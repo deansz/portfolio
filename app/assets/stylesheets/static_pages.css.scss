@@ -2,6 +2,31 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#accordion {
-  width: 500px;
-}
+#accordion {  
+    width: 300px;  
+    margin: 50px auto;  
+}  
+
+#accordion .ui-accordion-content {  
+    width: 100%;  
+    background-color: #f3f3f3;  
+    color: #777;  
+    font-size: 10pt;  
+    line-height: 16pt;  
+}  
+
+#accordion .ui-accordion-content > * {  
+    margin: 0;  
+    padding: 20px;  
+}  
+
+#accordion .ui-accordion-header {  
+    background-color: #ccc;  
+    margin: 0px;  
+}  
+
+#accordion .ui-accordion-header:first-of-type {  
+  background-color: #fa9300; }
+
+#accordion .ui-accordion-header:nth-of-type(2) {
+  background-color: blue; }
