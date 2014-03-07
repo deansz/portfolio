@@ -2,31 +2,37 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#accordion {  
-    width: 300px;  
-    margin: 50px auto;  
+ #accordion {  
+   width: 800px;   
 }  
 
-#accordion .ui-accordion-content {  
-    width: 100%;  
-    background-color: #f3f3f3;  
-    color: #777;  
-    font-size: 10pt;  
-    line-height: 16pt;  
-}  
+// #accordion .ui-accordion-content {  
+//      background-color: blue
+// }
+// #accordion .ui-accordion-header {  
+//    background-color: #ccc;  
+//     margin: 0px;  
+// }  
+// 
+// #accordion .ui-accordion-header:first-of-type {  
+//  background-color: #fa9300; }
+//
+// #accordion .ui-accordion-header:nth-of-type(2) {
+//  background-color: blue; }
 
-#accordion .ui-accordion-content > * {  
-    margin: 0;  
-    padding: 20px;  
-}  
+#smallimage {
+  width: 200px;
+}
 
-#accordion .ui-accordion-header {  
-    background-color: #ccc;  
-    margin: 0px;  
-}  
-
-#accordion .ui-accordion-header:first-of-type {  
-  background-color: #fa9300; }
-
-#accordion .ui-accordion-header:nth-of-type(2) {
-  background-color: blue; }
+img {
+    height: auto;
+    max-width: 200px;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+img.expanded {
+    max-width: 2000px;
+}
