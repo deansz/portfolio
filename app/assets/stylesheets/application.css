@@ -11,7 +11,8 @@
  *= require_self
  *= require_tree .
  */
-body
-{
-background-color:yellow;
+body {
+	background-color: #eaeae9;
+	color: #484847;
+	font-family: 'Dosis', sans-serif;
 }
