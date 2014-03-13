@@ -3,7 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
  #accordion {  
-   width: 800px;   
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto;
 }  
 
 // #accordion .ui-accordion-content {  
@@ -20,19 +22,24 @@
 // #accordion .ui-accordion-header:nth-of-type(2) {
 //  background-color: blue; }
 
-#smallimage {
-  width: 200px;
-}
 
 img {
     height: auto;
     max-width: 200px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
     -o-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
+
 }
 img.expanded {
-    max-width: 2000px;
+    max-width: 100%;
+    left: 0px;
+}
+
+#pix {
+    width: 800px;
 }
