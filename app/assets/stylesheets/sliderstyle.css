@@ -3,10 +3,11 @@
  
 .slider {
     display: block;
-    height: 450px;
+    height: 420px;
     width: 800px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     position: relative;
 }
  
@@ -20,7 +21,7 @@
 .sliderinner>ul {
     list-style: none;
     height: 100%;
-    width: 500%;
+    width: 800%;
     overflow: hidden;
     position: relative;
     left: 0px;
@@ -31,8 +32,8 @@
 }
  
 .sliderinner>ul>li {
-    width: 20%;
-    height: 450px;
+    width: 12.5%;
+    height: 420px;
     float: left;
     position: relative;
 }
@@ -53,7 +54,7 @@
 .slider label {
     position: absolute;
     left: 10%;
-    bottom: 50px;
+    top: 10px;
     z-index: 100;
     width: 12px;
     height: 12px;
@@ -77,15 +78,27 @@
 .slider input[type=radio]#control3:checked~label[for=control3] { background-color: #333; }
 .slider input[type=radio]#control4:checked~label[for=control4] { background-color: #333; }
 .slider input[type=radio]#control5:checked~label[for=control5] { background-color: #333; }
-.slider label[for=control1] { margin-left: -36px }
-.slider label[for=control2] { margin-left: -18px }
-.slider label[for=control4] { margin-left: 18px }
-.slider label[for=control5] { margin-left: 36px }
+.slider input[type=radio]#control6:checked~label[for=control6] { background-color: #333; }
+.slider input[type=radio]#control7:checked~label[for=control7] { background-color: #333; }
+.slider input[type=radio]#control8:checked~label[for=control8] { background-color: #333; }
+
+.slider label[for=control1] { margin-left: -54px }
+.slider label[for=control2] { margin-left: -36px }
+.slider label[for=control3] { margin-left: -18px }
+.slider label[for=control5] { margin-left: 18px }
+.slider label[for=control6] { margin-left: 36px }
+.slider label[for=control7] { margin-left: 54px }
+.slider label[for=control8] { margin-left: 72px }
+
+
 .slider input[type=radio]#control1:checked~.sliderinner>ul { left: 0 }
 .slider input[type=radio]#control2:checked~.sliderinner>ul { left: -100% }
 .slider input[type=radio]#control3:checked~.sliderinner>ul { left: -200% }
 .slider input[type=radio]#control4:checked~.sliderinner>ul { left: -300% }
 .slider input[type=radio]#control5:checked~.sliderinner>ul { left: -400% }
+.slider input[type=radio]#control6:checked~.sliderinner>ul { left: -500% }
+.slider input[type=radio]#control7:checked~.sliderinner>ul { left: -600% }
+.slider input[type=radio]#control8:checked~.sliderinner>ul { left: -700% }
  
 .description {
     position: absolute;
@@ -93,11 +106,11 @@
     left: 0;
     width: 100%;
     font-family:Dosis;
-    font-size: 15px;
+    font-size: 12pt;
     z-index: 1000;
 }
 .description-text {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(32,32,31,.8);
     padding:10px;
     top: 0;
     z-index: 4;
@@ -109,110 +122,3 @@
 }
 
 --------------------------------------------------------------------------------------------------------
-
-.slider2 {
-    display: block;
-    height: 450px;
-    width: 800px;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
-}
- 
-.sliderinner2 {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-}
- 
-.sliderinner2>ul {
-    list-style: none;
-    height: 100%;
-    width: 500%;
-    overflow: hidden;
-    position: relative;
-    left: 0px;
-    -webkit-transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
-    -moz-transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
-    -o-transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
-    transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
-}
- 
-.sliderinner2>ul>li {
-    width: 20%;
-    height: 450px;
-    float: left;
-    position: relative;
-}
- 
-.sliderinner2>ul>li>img {
-    margin: auto;
-    height: 100%;
-}
- 
-.slider2 input[type=radio] {
-    position: absolute;
-    left: 50%;
-    top: 10px;
-    z-index: 100;
-    visibility: hidden;
-}
- 
-.slider2 label {
-    position: absolute;
-    left: 10%;
-    top: 10px;
-    z-index: 100;
-    width: 12px;
-    height: 12px;
-    z-index: 2000;
-    background-color: #52E1E8;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    cursor: pointer;
-    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,.8);
-    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,.8);
-    box-shadow: 0px 0px 3px rgba(0,0,0,.8);
-    -webkit-transition: background-color .2s;
-    -moz-transition: background-color .2s;
-    -o-transition: background-color .2s;
-    transition: background-color .2s;
-}
- 
-.slider2 input[type=radio]#control6:checked~label[for=control6] { background-color: #333; }
-.slider2 input[type=radio]#control7:checked~label[for=control7] { background-color: #333; }
-.slider2 input[type=radio]#control8:checked~label[for=control8] { background-color: #333; }
-.slider2 input[type=radio]#control9:checked~label[for=control9] { background-color: #333; }
-.slider2 input[type=radio]#control10:checked~label[for=control10] { background-color: #333; }
-.slider2 label[for=control6] { margin-left: -36px }
-.slider2 label[for=control7] { margin-left: -18px }
-.slider2 label[for=control9] { margin-left: 18px }
-.slider2 label[for=control10] { margin-left: 36px }
-.slider2 input[type=radio]#control6:checked~.sliderinner>ul { left: 0 }
-.slider2 input[type=radio]#control7:checked~.sliderinner>ul { left: -100% }
-.slider2 input[type=radio]#control8:checked~.sliderinner>ul { left: -200% }
-.slider2 input[type=radio]#control9:checked~.sliderinner>ul { left: -300% }
-.slider2 input[type=radio]#control10:checked~.sliderinner>ul { left: -400% }
- 
-.description2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    font-family:Dosis;
-    font-size: 15px;
-    z-index: 1000;
-}
-.description-text2 {
-    background-color: rgba(0,0,0,.8);
-    padding:10px;
-    top: 0;
-    z-index: 4;
-    -webkit-transition: opacity .2s;
-    -moz-transition: opacity .2s;
-    -o-transition: opacity .2s;
-    transition: opacity .2s;
-    color: #fff;
-}
