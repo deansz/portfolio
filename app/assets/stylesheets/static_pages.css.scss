@@ -21,43 +21,41 @@
 }  
 
 h3 {  
+    font-family: Dosis, sans-serif;
+    font-size: 18pt;
     background-color: #52E1E8;
     box-shadow: 3px 3px #484847;
     padding-left: 10px;
 }  
-// 
-// #accordion .ui-accordion-header:first-of-type {  
-//  background-color: #fa9300; }
-//
-// #accordion .ui-accordion-header:nth-of-type(3) {
-//  background-color: blue; }
-
-
-img {
-    height: auto;
-    max-width: 200px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-    -webkit-transition: all 1s;
-    transition: all 1s;
-
-}
-img.expanded {
-    max-width: 100%;
-    left: 0px;
-}
-
-#pix {
-    width: 800px;
-}
 
 h4 {
+    font-family: Dosis, sans-serif;
     background-color: #ffffff;
 }
 
-#slides {
-      display:none;
-    }
+body {
+  font-family: Dosis, sans-serif;
+  font-size: 14pt;
+}
+
+.arrow {
+  width:10px;
+  height: 10px;
+  padding: 1px;
+}
+
+#words {
+  padding-top:10px;
+}
+
+#contact {
+  padding-top:10px;
+  font-style: bold;
+  font-size: 15pt;
+}
+
+#footer {
+  height: 100px;
+  text-align: center;
+  margin-top:100px;
+}
