@@ -53,7 +53,7 @@
  
 .slider label {
     position: absolute;
-    left: 10%;
+    left: 68px;
     top: 10px;
     z-index: 100;
     width: 12px;
@@ -106,7 +106,7 @@
     left: 0;
     width: 100%;
     font-family:Dosis;
-    font-size: 12pt;
+    font-size: 14pt;
     z-index: 1000;
 }
 .description-text {
