@@ -1,4 +1,6 @@
   <!--link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css"-->
+  <head>
+    <link href="sliderstyle.css" type="text/css" rel="stylesheet">
   <script src="//code.jquery.com/jquery-1.9.1.js"></script>
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <script>
@@ -35,22 +37,7 @@
   });
   </script>
 </script>
-
-<script>
-$(document).ready(function() {
-        var imageLinks = $('a[href$=".png"], a[href$=".jpg"], a[href$=".gif"], a[href$=".bmp"]');
-        if (imageLinks.children('img').length) {
-            imageLinks.children('img').each(function() {
-                var currentTitle = $(this).attr('title');
-                $(this).attr('title', currentTitle + ' (click to enlarge image)');
-            });
-            imageLinks.click(function(e) {
-                e.preventDefault();
-                $(this).children('img').toggleClass('expanded');
-            });
-        }
-    });
-</script>
+</head>
 <!-- the things that helps keep the panels open is p. complex. if this causes problems, could use simple-expander-->
 <body>
 <div id="outerbox">
@@ -79,19 +66,79 @@ $(document).ready(function() {
 
   </div>
   <h3>FILM PHOTOGRAPHY</h3>
-   <div>
-    I shoot film 'for the lols' on a beat-up old Olympus OM-1. It is patched in places with tinfoil to stop light leaks, but it's a trusty wee thing and I love using it. I recently took this camera to South East Asia with me for two months and getting those rolls developed was like reliving my adventures.
-    <a href="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash3/t1/q71/s720x720/1560669_10151976176167659_430763943_n.jpg"><img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash3/t1/q71/s720x720/1560669_10151976176167659_430763943_n.jpg" /></a>
-    <a href="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn2/t31/q71/s720x720/1899529_10151976175622659_1427222493_o.jpg"><img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn2/t31/q71/s720x720/1899529_10151976175622659_1427222493_o.jpg" /></a>
-    <a href="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash3/t31/q71/s720x720/1891566_10151976176057659_2101905460_o.jpg"><img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash3/t31/q71/s720x720/1891566_10151976176057659_2101905460_o.jpg" /></a>
-    <!-- to fix these being weird when enlarged (lol), may need to put them all in different divs that can float/rearrange somehow when enlarged? -->
-  </div>
+<div class="slider"> 
+        <input type="radio" id="control1" name="controls" checked="checked"/>
+        <label for="control1"></label>
+        <input type="radio" id="control2" name="controls"/>
+        <label for="control2"></label>
+        <input type="radio" id="control3" name="controls"/>
+        <label for="control3"></label>
+        <input type="radio" id="control4" name="controls"/>
+        <label for="control4"></label>
+        <input type="radio" id="control5" name="controls"/>
+        <label for="control5"></label>
+        <div class="sliderinner">
+            <ul>
+                <li>
+                    <img src="http://i.imgur.com/jGmSyOD.jpg" />
+                    <div class="description">
+ 
+                        <div class="description-text">
+                            <h2>Slideshow Title 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash3/t1/q71/s720x720/1560669_10151976176167659_430763943_n.jpg" />
+                    <div class="description">
+ 
+                        <div class="description-text">
+                            <h2>Slideshow Title 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://i.imgur.com/jGmSyOD.jpg" />
+                    <div class="description">
+ 
+                        <div class="description-text">
+                            <h2>Slideshow Title 3</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://i.imgur.com/jGmSyOD.jpg" />
+                    <div class="description">
+ 
+                        <div class="description-text">
+                            <h2>Slideshow Title 4</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://i.imgur.com/jGmSyOD.jpg" />
+                    <div class="description">
+ 
+                        <div class="description-text">
+                            <h2>Slideshow Title 5</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div><!--slider-->
+
  
   <h3>CONTACT</h3>
   <div>
     You can contact me by emailing zoedeans@gmail.com or calling 027 491 9960.</div>
   </div> </div>
  </div>
- 
+
 </body>
 </html>
