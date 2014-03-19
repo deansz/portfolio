@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+<pattern  width="300" height="300" patternUnits="userSpaceOnUse" id="triangles" viewBox="237.938 -340.059 300 300" overflow="visible">
+	<g>
+		<polygon fill="none" points="237.938,-340.059 537.938,-340.059 537.938,-40.059 237.938,-40.059 		"/>
+		<g>
+			<polygon opacity="0.5" fill="#E8D100" points="580.617,-196.589 512.379,-196.589 546.498,-254.922 			"/>
+			<polygon opacity="0.3" fill="#E8D100" points="720.439,-0.135 472.021,-0.135 596.23,-212.488 			"/>
+		</g>
+		<g>
+			<polygon opacity="0.5" fill="#52E1E8" points="434.933,-283.155 368.367,-283.155 401.65,-340.059 			"/>
+			<polygon opacity="0.3" fill="#E8D100" points="300,-254.922 548.418,-254.922 424.209,-42.567 			"/>
+			<polygon opacity="0.7" fill="#E8D100" points="381.353,-117.16 304.383,-117.16 342.868,-182.956 			"/>
+			<polygon opacity="0.5" fill="#52E1E8" points="419.632,-89.135 523.903,-89.135 471.768,0 			"/>
+			<polygon opacity="0.5" fill="#E8D100" points="280.618,-196.589 212.379,-196.589 246.499,-254.922 			"/>
+			<polygon opacity="0.3" fill="#52E1E8" points="296.23,-212.488 472.768,-212.488 384.5,-61.577 			"/>
+			<polygon opacity="0.3" fill="#E8D100" points="420.439,-0.135 172.021,-0.135 296.23,-212.488 			"/>
+			<polygon opacity="0.2" fill="#52E1E8" points="255.864,-330.381 344.137,-330.381 300,-254.922 			"/>
+		</g>
+		<g>
+			<polygon opacity="0.3" fill="#E8D100" points="0,-254.922 248.418,-254.922 124.209,-42.567 			"/>
+		</g>
+		<g>
+			<polygon opacity="0.3" fill="#E8D100" points="720.439,-300.135 472.021,-300.135 596.23,-512.488 			"/>
+		</g>
+		<g>
+			<polygon opacity="0.5" fill="#52E1E8" points="419.632,-389.135 523.903,-389.135 471.768,-300 			"/>
+			<polygon opacity="0.3" fill="#E8D100" points="420.439,-300.135 172.021,-300.135 296.23,-512.488 			"/>
+		</g>
+	</g>
+</pattern>
+<rect opacity="0.4" fill="url(#triangles)" width="300" height="300"/>
+</svg>

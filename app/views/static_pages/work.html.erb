@@ -1,16 +1,5 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>CSS3 & HTML Slider</title>
-<link href="sliderstyle.css" type="text/css" rel="stylesheet">
-</head>
- 
-<body>
-
- <% flash.each do |key, msg| %>
-        <%= content_tag :div, msg, :class => [key, " message"], :id => "notice_#{key}" %>
-      <% end %>
-      <%= yield %>
-</body>
-</html>
+<style>
+  body {background-image:url("/tesselate.svg");background-repeat:repeat;}
+</style>
