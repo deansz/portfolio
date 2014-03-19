@@ -1,20 +1,52 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#intro {
+  height: 150px;
+  width: 780px;
+  background-color: #52E1E8;
+  box-shadow: 3px 3px #484847;
+  color: #E8D100;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+#zd {
+  font-size: 80pt;
+  font-weight: bold;
+  text-shadow: 3px 3px #484847;
+}
+
+#email {
+  color: #484847;
+  position: absolute;
+  top: 130px;
+  margin-left: 2px;
+}
+
+#tagline {
+  height: 150px;
+  width: 200px;
+  margin-left: 570px;
+  top: 45px;
+  font-weight: bold;
+  font-size: 13pt;
+  color: #484847;
+  position: absolute;
+}
 
 #outerbox {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 10px 10px 10px;
-    background-color: #eaeae9;
 }
 
  #accordion {  
    width: 800px;
    margin-left: auto;
    margin-right: auto;
-   background-color: #eaeae9;
 }  
 
 h3 {  
@@ -40,6 +72,7 @@ body {
   height: 10px;
   padding: 1px;
 }
+    
 
 #words {
   padding-top:10px;
