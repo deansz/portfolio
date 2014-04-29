@@ -70,6 +70,18 @@
     -o-transition: background-color .2s;
     transition: background-color .2s;
 }
+
+ @media all and (max-width: 900px) {
+    .slider3 {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+ }
  
 .slider3 input[type=radio]#control14:checked~label[for=control14] { background-color: #333; }
 .slider3 input[type=radio]#control15:checked~label[for=control15] { background-color: #333; }

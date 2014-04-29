@@ -36,7 +36,8 @@
   position: absolute;
 }
 
-#outerbox {
+
+  #outerbox {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +49,53 @@
    margin-left: auto;
    margin-right: auto;
 }  
+
+
+@media all and (max-width: 900px) {
+    #outerbox {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ #accordion {  
+   width: 95%;
+   margin-left: auto;
+   margin-right: auto;
+}  
+
+#intro {
+  height: 100px;
+  width: 86%;
+  background-color: #52E1E8;
+  box-shadow: 3px 3px #484847;
+  color: #E8D100;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+#zd {
+  font-size: 320%;
+  font-weight: bold;
+  text-shadow: 3px 3px #484847;
+}
+
+#tagline {
+  display: none;
+}
+
+#email {
+  color: #484847;
+  font-size: 15pt;
+  position: absolute;
+  top: 90px;
+  margin-left: 2px;
+}
+
+}
+
+
 
 h3 {  
     font-family: Dosis, sans-serif;
