@@ -38,7 +38,7 @@
     position: relative;
 }
  
-.sliderinner>ul>li>img {
+.sliderinner>ul>li>picture>source {
     margin: auto;
     height: 100%;
 }
