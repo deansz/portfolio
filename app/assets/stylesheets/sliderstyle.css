@@ -33,14 +33,14 @@
  
 .sliderinner>ul>li {
     width: 12.5%;
-    height: 420px;
+    height: 100%;
     float: left;
     position: relative;
 }
  
-.sliderinner>ul>li>picture>source {
+.sliderinner>ul>li>img {
     margin: auto;
-    height: 100%;
+    width: 100%;
 }
  
 .slider input[type=radio] {
