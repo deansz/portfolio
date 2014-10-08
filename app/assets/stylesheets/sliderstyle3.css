@@ -1,7 +1,8 @@
+* { margin: 0; padding: 0; }
 
 .slider3 {
     display: block;
-    height: 450px;
+    height: 600px;
     width: 800px;
     margin: auto;
     margin-top: 10px;
@@ -19,7 +20,7 @@
 .sliderinner3>ul {
     list-style: none;
     height: 100%;
-    width: 500%;
+    width: 1600%;
     overflow: hidden;
     position: relative;
     left: 0px;
@@ -30,8 +31,8 @@
 }
  
 .sliderinner3>ul>li {
-    width: 20%;
-    height: 450px;
+    width: 6.25%;
+    height: 100%;
     float: left;
     position: relative;
 }
@@ -88,15 +89,27 @@
 .slider3 input[type=radio]#control16:checked~label[for=control16] { background-color: #333; }
 .slider3 input[type=radio]#control17:checked~label[for=control17] { background-color: #333; }
 .slider3 input[type=radio]#control18:checked~label[for=control18] { background-color: #333; }
-.slider3 label[for=control14] { margin-left: -36px }
-.slider3 label[for=control15] { margin-left: -18px }
-.slider3 label[for=control17] { margin-left: 18px }
-.slider3 label[for=control18] { margin-left: 36px }
+.slider3 input[type=radio]#control19:checked~label[for=control19] { background-color: #333; }
+.slider3 input[type=radio]#control20:checked~label[for=control20] { background-color: #333; }
+.slider3 input[type=radio]#control21:checked~label[for=control21] { background-color: #333; }
+
+.slider3 label[for=control14] { margin-left: -54px }
+.slider3 label[for=control15] { margin-left: -36px }
+.slider3 label[for=control16] { margin-left: -18px }
+.slider3 label[for=control18] { margin-left: 18px }
+.slider3 label[for=control19] { margin-left: 36px }
+.slider3 label[for=control20] { margin-left: 54px }
+.slider3 label[for=control21] { margin-left: 72px }
+
+
 .slider3 input[type=radio]#control14:checked~.sliderinner3>ul { left: 0 }
 .slider3 input[type=radio]#control15:checked~.sliderinner3>ul { left: -100% }
 .slider3 input[type=radio]#control16:checked~.sliderinner3>ul { left: -200% }
 .slider3 input[type=radio]#control17:checked~.sliderinner3>ul { left: -300% }
 .slider3 input[type=radio]#control18:checked~.sliderinner3>ul { left: -400% }
+.slider3 input[type=radio]#control19:checked~.sliderinner3>ul { left: -500% }
+.slider3 input[type=radio]#control20:checked~.sliderinner3>ul { left: -600% }
+.slider3 input[type=radio]#control21:checked~.sliderinner3>ul { left: -700% }
  
 .description3 {
     position: absolute;

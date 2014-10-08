@@ -3,7 +3,7 @@
  
 .slider {
     display: block;
-    height: 420px;
+    height: 600px;
     width: 800px;
     margin: auto;
     margin-top: 10px;
@@ -21,7 +21,7 @@
 .sliderinner>ul {
     list-style: none;
     height: 100%;
-    width: 800%;
+    width: 1600%;
     overflow: hidden;
     position: relative;
     left: 0px;
@@ -32,7 +32,7 @@
 }
  
 .sliderinner>ul>li {
-    width: 12.5%;
+    width: 6.25%;
     height: 100%;
     float: left;
     position: relative;

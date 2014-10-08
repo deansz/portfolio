@@ -1,7 +1,9 @@
 
+* { margin: 0; padding: 0; }
+
 .slider2 {
     display: block;
-    height: 450px;
+    height: 600px;
     width: 800px;
     margin: auto;
     margin-top: 10px;
@@ -19,7 +21,7 @@
 .sliderinner2>ul {
     list-style: none;
     height: 100%;
-    width: 500%;
+    width: 400%;
     overflow: hidden;
     position: relative;
     left: 0px;
@@ -30,8 +32,8 @@
 }
  
 .sliderinner2>ul>li {
-    width: 20%;
-    height: 450px;
+    width: 25%;
+    height: 100%;
     float: left;
     position: relative;
 }
@@ -86,16 +88,16 @@
 .slider2 input[type=radio]#control10:checked~label[for=control10] { background-color: #333; }
 .slider2 input[type=radio]#control11:checked~label[for=control11] { background-color: #333; }
 .slider2 input[type=radio]#control12:checked~label[for=control12] { background-color: #333; }
-.slider2 input[type=radio]#control13:checked~label[for=control13] { background-color: #333; }
+/*.slider2 input[type=radio]#control13:checked~label[for=control13] { background-color: #333; }*/
 .slider2 label[for=control9] { margin-left: -36px }
 .slider2 label[for=control10] { margin-left: -18px }
 .slider2 label[for=control12] { margin-left: 18px }
-.slider2 label[for=control13] { margin-left: 36px }
+/*.slider2 label[for=control13] { margin-left: 36px }*/
 .slider2 input[type=radio]#control9:checked~.sliderinner2>ul { left: 0 }
 .slider2 input[type=radio]#control10:checked~.sliderinner2>ul { left: -100% }
 .slider2 input[type=radio]#control11:checked~.sliderinner2>ul { left: -200% }
 .slider2 input[type=radio]#control12:checked~.sliderinner2>ul { left: -300% }
-.slider2 input[type=radio]#control13:checked~.sliderinner2>ul { left: -400% }
+/*.slider2 input[type=radio]#control13:checked~.sliderinner2>ul { left: -400% }*/
  
 .description2 {
     position: absolute;
