@@ -39,7 +39,7 @@
  
 .sliderinner3>ul>li>img {
     margin: auto;
-    height: 100%;
+    width: 100%;
 }
  
 .slider3 input[type=radio] {

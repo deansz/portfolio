@@ -40,7 +40,7 @@
  
 .sliderinner2>ul>li>img {
     margin: auto;
-    height: 100%;
+    width: 100%;
 }
  
 .slider2 input[type=radio] {
